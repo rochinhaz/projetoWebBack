@@ -1,0 +1,21 @@
+<%- include('partials/header', { page: 'login' }) %>
+<style>
+  form {
+    width: 320px;
+  }
+</style>
+<div class="centered-container">
+<form method="POST" action="/login" class="card-form text-center">
+  
+  <div class="avatar">
+      <img src="/img/caminhaoVW.png">
+  </div>
+  <input name="username" placeholder="Usuário" class="form-control mb-2" required>
+  <input name="password" type="password" placeholder="Senha" class="form-control mb-2" required>
+  <div class="mt-4">
+    <button type="submit" class="btn btn-primary w-100 mb-3">Entrar</button>
+  <p class="mb-0">Não tem conta? <a href="/register">Cadastre-se</a></p>
+  </div>
+  
+</form>
+</div>

@@ -1,0 +1,54 @@
+header h2 {
+  font-size: 1.5rem;
+}
+
+header a.btn {
+  font-weight: bold;
+}
+
+.logout-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  flex-direction: column;
+}
+
+.centered-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body {
+  background-color: #cfcdcd;
+}
+
+.card-form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.card-form .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px auto; 
+  border: 3px solid #000000; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-form .avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* recorta a imagem para preencher sem distorcer */
+  object-position: center; /* centraliza o foco da imagem */
+}
